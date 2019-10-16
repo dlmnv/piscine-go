@@ -25,7 +25,7 @@ func PrintComb() {
 		}
 		z01.PrintComb('\n')
 	}
-
+}
 	func main() {
 	z01.PrintComb()
 }
