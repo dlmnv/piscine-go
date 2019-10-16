@@ -8,7 +8,7 @@ func IsNegative(nb int) {
 	} else {
 		z01.PrintRune('F')
 	}
-	z01.PrintRune('\n')	
+	z01.PrintRune('\n')
 }
 
 func main() {
