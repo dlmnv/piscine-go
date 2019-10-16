@@ -7,7 +7,7 @@ func PrintComb() {
 		for b := '1' ; b <= '8' ; b++ {
 			for c := '2' ; c <= '9' ; c++ {
 					if a < b && b < c {
-						if a == '7' ; b == '8' ; c == '9' {
+						if a == '7' && b == '8' && c == '9' {
 							z01.PrintRune('a')
 							z01.PrintRune('b')
 							z01.PrintRune('c')
