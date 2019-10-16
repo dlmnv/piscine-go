@@ -38,6 +38,6 @@ func PrintComb2() {
 	}
 }
 
-func main() {
+func () {
 	piscine.PrintComb2()
 }
