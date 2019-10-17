@@ -13,7 +13,7 @@ func PrintStr(str string) {
 			x += string(s[a])
 		}
 		return a
-	}
+	
 }
 
 // func main() {
