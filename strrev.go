@@ -14,10 +14,3 @@ func StrRev(s string) string {
 	}
 	return x
 }
-
-
-/*func main() {
-	s := "Hello World!"
-	s = StrRev(s)
-	fmt.Println(s)
-}*/
