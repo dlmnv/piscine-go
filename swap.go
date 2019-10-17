@@ -8,4 +8,3 @@ func Swap(a *int, b *int) {
 	*a = x
 	*b = z
 }
-
