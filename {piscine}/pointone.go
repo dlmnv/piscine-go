@@ -1,10 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-	"github.com/01-edu/z01"
-)
-
 func PointOne(a *int) {
 	*a = *a + 1
 }
