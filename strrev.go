@@ -1,4 +1,4 @@
-package main
+package piscine
 
 // import "fmt"
 
@@ -9,15 +9,15 @@ func StrRev(s string) string {
 		z++
 	}
 
-	for a := z -1; a >= 0; a-- {
+	for a := z - 1; a >= 0; a-- {
 		x += string(s[a])
 	}
 	return x
 }
 
 
-// func main() {
-// 	s := "Hello World!"
-// 	s = StrRev(s)
-// 	fmt.Println(s)
-// }
+/*func main() {
+	s := "Hello World!"
+	s = StrRev(s)
+	fmt.Println(s)
+}*/
