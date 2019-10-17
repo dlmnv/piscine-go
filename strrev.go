@@ -1,21 +1,23 @@
 package main
 
-// import "github.com/01-edu/z01"
+// import "fmt"
 
-func PrintStr(str string) {
+func StrRev(s string) string {
 	var x string
 	z := 0
-	for range str {
+	for range s {
 		z++
 	}
 
-	for a := z - 1; a >= 0; a-- {
+	for a := z -1; a >= 0; a-- {
 		x += string(s[a])
 	}
-	return a
+	return x
 }
 
+
 // func main() {
-// 	str := "Hello World!"
-// 	PrintStr(str)
+// 	s := "Hello World!"
+// 	s = StrRev(s)
+// 	fmt.Println(s)
 // }
