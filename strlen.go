@@ -1,7 +1,7 @@
 package main
 
-/*import "fmt"
-*/
+/*import "fmt"*/
+
 func StrLen(str string) int {
 	z := 0
 	for range str {
