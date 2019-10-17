@@ -10,10 +10,9 @@ func PrintStr(str string) {
 	}
 
 	for a := z - 1; a >= 0; a-- {
-			x += string(s[a])
-		}
-		return a
-	
+		x += string(s[a])
+	}
+	return a
 }
 
 // func main() {
