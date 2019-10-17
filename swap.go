@@ -1,7 +1,5 @@
 package piscine
 
-import "fmt"
-
 func Swap(a *int, b *int) {
 	var x int
 	var z int
@@ -11,10 +9,3 @@ func Swap(a *int, b *int) {
 	*b = z
 }
 
-func main() {
-	a := 0
-	b := 1
-	Swap(&a, &b)
-	fmt.Println(a)
-	fmt.Println(b)
-}
