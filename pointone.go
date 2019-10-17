@@ -1,6 +1,6 @@
 package piscine
 
-import ( "fmt" "github.com/01-edu/z01")
+import ( "fmt"; "github.com/01-edu/z01")
 
 
 func PointOne(n *int) {
