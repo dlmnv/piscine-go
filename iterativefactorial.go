@@ -9,11 +9,4 @@ func IterativeFactorial(nb int) int {
 		arg = arg * (x + 1)
 	}
 	return arg
-
-
 }
-
-// func main() {
-// 	arg := 4
-// 	fmt.Println(IterativeFactorial(arg))
-// }
