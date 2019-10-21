@@ -6,9 +6,9 @@ func RecursiveFactorial(nb int) int {
 			return 1
 		}
 		if nb > 1 {
-			return nb * RecursiveFactorial(nb - 1)
+			return nb * RecursiveFactorial(nb-1)
 		}
-	return 0	
+		return 0	
 	}
 	return 0
 }
