@@ -1,10 +1,22 @@
-package piscine
+package main
+
+import "fmt"
 
 func IsPrime(nb int) bool {
-	for i := 2; i < nb; i++ {
-		if nb%i == 0 {
-			return false
+	if nb > 1 {
+		for i := 2; i < nb; i++ {
+			if nb%i == 0 {
+				return false
+			}
 		}
-	}
-	return true
+		return true
+	} else {
+		return false
+	}	
+}
+
+
+func main() {
+	fmt.Println(IsPrime(5))
+	fmt.Println(IsPrime(4))
 }
