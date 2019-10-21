@@ -1,7 +1,5 @@
 package piscine
 
-// import "fmt"
-
 func IterativePower(nb int, power int) int {
 	if power > 0 {
 		x := 1
@@ -15,9 +13,3 @@ func IterativePower(nb int, power int) int {
 		return 0
 	}
 }
-
-// func main() {
-// 	arg1 := 4
-// 	arg2 := 3
-// 	fmt.Println(IterativePower(arg1, arg2))
-// }
