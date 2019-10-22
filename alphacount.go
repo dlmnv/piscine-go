@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func StrLen(str string) int {
 	len := 0
@@ -24,8 +24,8 @@ func AlphaCount(str string) int{
 	return count
 }
 
-func main() {
-	str := "Hello 78 World!    4455 /"
-	nb := AlphaCount(str)
-	fmt.Println(nb)
-}
+// func main() {
+// 	str := "Hello 78 World!    4455 /"
+// 	nb := AlphaCount(str)
+// 	fmt.Println(nb)
+// }
