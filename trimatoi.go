@@ -9,7 +9,7 @@ func TrimAtoi(s string) int {
 			result = result*10 + int(value-48)
 		} else if value == '-' && result == 0 {
 			sign = -1
-		} else if value == '0' && result == 0{
+		} else if value == '0' && result == 0 {
 			return
 		}
 	}
