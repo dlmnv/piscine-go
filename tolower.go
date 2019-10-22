@@ -11,6 +11,6 @@ func ToLower(s string) string {
 			k[value] = (k[value] + 32)
 		}
 	}
-	upper := string(k)
-	return upper
+	lower := string(k)
+	return lower
 }
