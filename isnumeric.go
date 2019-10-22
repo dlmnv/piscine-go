@@ -7,7 +7,7 @@ func IsNumeric(str string) bool {
 		slen++
 	}
 	for i := 0; i < slen; i++ {
-		if x[i] < '0' || x[i] > '9'
+		if x[i] < '0' || x[i] > '9' {
 			return false
 		}
 	}
