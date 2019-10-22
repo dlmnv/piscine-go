@@ -10,7 +10,7 @@ func StrLen(str string) int {
 	return len
 }
 
-func AlphaCount(str string) int{
+func AlphaCount(str string) int {
 	k := []rune(str)
 	x := StrLen(str)
 	count := 0
