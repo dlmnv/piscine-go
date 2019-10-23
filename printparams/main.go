@@ -14,7 +14,7 @@ func main() {
 			for a := range arr {
 				z01.PrintRune(arr[a])
 			}
+			z01.PrintRune(10)
 		}
-		z01.PrintRune(10)
 	}
 }
