@@ -1,10 +1,16 @@
 package piscine
 
 import (
-	"fmt"
 	"os"
+
+	"github.com/01-edu/z01"
 )
 
 func main() {
-	fmt.Printf(os.Args[0])
+
+	arg := []rune(os.Args[0])
+	for _, i := range arg {
+		z01.PrintRune(rune(arg[i]))
+	}
+	z01.PrintRune('\n')
 }
