@@ -8,11 +8,11 @@ import (
 
 func main() {
 	arg := os.Args
-	arr := []rune(os.Args)
 	for k := range arg {
 		for k > 0 {
+			arr := []rune(os.Args[k])
 			for a := range arr {
-				z01.PrintRune('a')
+				z01.PrintRune(arr[a])
 			}
 		}
 		z01.PrintRune(10)
