@@ -1,6 +1,13 @@
 package piscine
 
 func BasicJoin(strs []string) string {
-	k := strs[0] + " " + strs[1] + " " + strs[2] + " " + strs[3]
+	slen := 0
+	var k string
+	for range strs {
+		slen++
+	}
+	for value := 0; value < slen; value++ {
+		k = k + strs[value]
+	}
 	return k
 }
