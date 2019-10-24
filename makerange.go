@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package piscine
 
 func MakeRange(min, max int) []int {
 	if min >= max {
@@ -11,9 +9,4 @@ func MakeRange(min, max int) []int {
 		slice[j] = i
 	}
 	return slice
-}
-
-func main() {
-	fmt.Println(MakeRange(5, 10))
-	fmt.Println(MakeRange(10, 5))
 }
